@@ -1,6 +1,7 @@
 function decimalToBinary(n) {
 // write your code here
-	arr = [];
+	let arr = [];
+	let target = n;
 	while(target>1){
 		arr.push(target%2);
 		target = Math.floor(target/2);
